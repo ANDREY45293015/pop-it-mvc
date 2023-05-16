@@ -1,2 +1,22 @@
 {
+  "name": "ANDREY45293015/PHPserver",
+  "description": "Simple mvc framework",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "ANDREY45293015",
+      "email": "45293015andrey@mail.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.1 | ^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Src\\": "core/Src/",
+      "": "app/"
+    }
+  }
 }
